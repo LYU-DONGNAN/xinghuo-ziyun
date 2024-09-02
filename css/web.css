@@ -27,6 +27,10 @@ a {
 a:hover{
     color: rgb(156, 242, 186);
 }
+.page{
+    width: 1400px;
+    text-align: center;
+}
 
 .title{
     background: url(../img/flag.jpg) no-repeat;
@@ -54,7 +58,7 @@ a:hover{
     display: flex;
     flex-direction: column; /* 垂直排列子元素 */
     justify-content: center; /* 垂直居中 */
-    align-items: center; /* 水平居中 */
+    /* align-items: center;  */
     width: 850px;
     height: 100%;
     background-color: #e7fcef;
